@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e253e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nsit_logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sign_out_icon"
+            android:layout_alignStart="@+id/sign_out_icon"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/home_icon" />
+
+        <ImageView
+            android:id="@+id/sign_out_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/home_icon"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sign_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harmony"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="cursive"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/subtext_color"
+                android:textSize="20sp"
+                android:text="The Western Acapella Competition at Dhwani'18 @ Moksha"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:text="Encompassing the various western genres ranging from blues and jazz to pop and rock, Dhwani'18 @ Moksha presents to you Harmony - The Western Acapella Competition, where vocalists display their extraordinary talent and skills in western music, to be held on 14th March, 2018."
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Guidelines:"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="1.Only one entry per college is allowed.\n\n2.A minimum number of 5 and maximum number of 25 participants are allowed for each entry. (This is inclusive of the conductor.)\n\n3.Instruments are NOT allowed. This is an Acappella event only.\n\n4.Each college will be given a total of 15 minutes on stage, including sound check.\n\n5.Pre-recorded tracks or music is not allowed.\n\n6.There is no limitation on the genre of music to be performed.\n\n7.The shortlist for the event will be updated on the official Facebook page for Crescendo - The Music Society of NSIT at https://www.facebook.com/Crescendo.NSIT/?ref=br_rs as well as Dhwani '18 at https://www.facebook.com/dhwaniMoksha/."
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Rules for Preliminary Qualifications:"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="1.Those interested are required to fill this form\n\n2.Entries of maximum of 6 minutes time should be sent to dhwani.moksha@gmail.com .\n\n3.Entries are to be sent latest by 9th March, 2018.\n\n4.Entries can be of audio formats only.\n\n5. Mention the subject of the email as ‘Harmony’18 Registration’ .\n\n6.Participants are requested to mention their names, college name, email ID and contact numbers in the preliminary registration email as well."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Contact for Queries:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/subtext_color"
+                android:text="Shikhar Agnihotri - 8860 377 453\nMarlon Dcruz - 8197 668 660"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Time 11:00AM\nDate : 26th March 2018 \n Venue : Mini Audi"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/regButton"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e253e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nsit_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sign_out_icon"
+            android:layout_alignStart="@+id/sign_out_icon"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/home_icon" />
+
+        <ImageView
+            android:id="@+id/sign_out_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/home_icon"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sign_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voice of Moksha"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/subtext_color"
+                android:text="Bollywood Solo Singing Competition at Dhwani'18 @ Moksha"
+                android:textSize="20sp"
+                android:id="@+id/tv0"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Bollywood music forms a predominant component of Indian pop music, and derives it's inspiration from both classical and modern sources, firmly embedded in North India's popular culture. Dhwani '18, The Musical Extravaganza of NSIT brings to you Voice of Moksha - The Bollywood Solo singing competition. The event shall be held on 16 March, 2018 12:00 p.m. onwards."
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:id="@+id/tv1"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Guidelines:"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:id="@+id/tv2"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="1.Last date for preliminary registration is 9th March, 2018 11:59 pm. Interested participants must send in their entries to dhwani.moksha@gmail.com .\n\n2.Each participant will be given a total of 4 +2 minutes including sound check and stage setup time.\n\n3.In addition to an electronic tanpura, a maximum of 2 accompanists shall be allowed. The instrumentalists need not necessarily be from the same college.\n\n4.It will be the responsibility of the participant and the accompanying instrumentalist(s) to arrange and maintain the instrument(s).\n\n5.Use of synthesizer tracks and pre-recorded tracks is strictly prohibited. Any participant found violating this rule will be liable to immediate disqualification.\n\n6.Genre must be strictly Bollywood.\n\n7.A maximum of two entries will be shortlisted per college.\n\n8.The shortlist for the event will be updated on the official Facebook page for Crescendo - The Music Society of NSIT at https://www.facebook.com/Crescendo.NSIT/ as well as Dhwani’18 at https://www.facebook.com/dhwaniMoksha/"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Rules for Preliminary Qualifications:"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:id="@+id/tv3"
+                android:layout_marginTop="20dp"
+                android:text="1.Those interested are required to fill this form\n\n2.Entries of a maximum of 3 minutes time should be sent to dhwani.moksha@gmail.com.\n\n3.Entries are to be sent latest by 9th March, 2018.\n\n4.Entries can either be of audio or video formats. Participants may send a link to their youtube video or soundcloud audio.\n\n5.Mention the subject of the email as 'VOICE OF MOKSHA'18 REGISTRATION’.\n\n6.Participants are requested to mention their names, college name, email ID and contact numbers in the preliminary registration email as well."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Contact for Queries:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:id="@+id/tv4"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/subtext_color"
+                android:text="Disha Bansal - 8700525920\nKaran Kataria - 9717144875"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:padding="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textColor="@color/white"
+                android:text="Time : 9:00AM to 12:00PM\nDate : 28th March 2018\nVenue : Main Audi"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Register Here"
+                android:id="@+id/regButton"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

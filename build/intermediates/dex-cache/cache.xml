@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/85daf618c0c3bf2d23e99b738fbf9ef9/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-2.0.1.aar/63617e0f302b93eabe24566685296470/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f38c1fe0ee3d0ef717e7f32131719fccf07fd6c7">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/457133c90b962ce9242f1ea9cf1792ee/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/8454ec69cdabe2849dc90da2c188c986/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b77e50b3c31d0fc64148530f7077f79ec114b5b9">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/1a75aa2cd7b42d63d00a75c65febef41/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/9a4c2176a38b098a79994bcb14939dd1/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40a6b8f05124eb9e6012e18b80a6dbd13440e283">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="102d7be47241d781ef95f1581d414b0943053130">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/bbfbe8608f80844328f149fd52718ef8/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/customtabs-23.4.0.aar/7d393d11f617b40de11f7a11fcd4303e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/zxing-android-integration-2.0.1.aar/c70abc5f2e3c4d730e429f7b5b95db2a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d4d7d4290dc3f13bdb95a92b2377d78e66084dfa">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/40dcae3b4372aa467119b2e8825757aa/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4961be1437163ab598620a3c907c0f3432936f51">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/SuperNova-Emoji-1.0.aar/f4855d2a7f9ff614f1c98d9a772d046a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d93baea6a8e54cdd9605ed96ebd662827af4e411">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/cdd7bb419e0187de5d73abfa84911d78/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70a3fed299d84cd868614e11021664d72b8e488">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.2.aar/8829a8e122012b3012743dae6b045cf5/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="38c0f2d5be3c27ed0adf9aebe7b8e3aa0d78b9fb">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/a2809edfe2b037183a7c5171087932cd/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/55fd920747f0b08999f088e197f82a57/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a7a0aa678c3bbadb67fb41df9e107f7ee9087902">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.0.aar/54958a3df253bd823aaca60caa4f12dc/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/palette-v7-25.0.0.aar/d4966379e14c0bdc64af65dcec674de5/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="672cceae26e9a8fcbd8e0eefe5fc351c50d2488a">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.0.aar/030d33fce532d691ef0107412d71f1c6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-0.6.2.aar/7e771aaebf1e389055843714bea71eec/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3c433e48557e476290f45fb6cb568d1a103c9978">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/google-signin-1.0.0.aar/708f19d12ec87cb37c0a6951db6e520e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4942a630e65dfc2352a781c2d3cb39410acd3f7f">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/94aaeac2d3a12085556c1b4358a30a35/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.8.0.aar/26b99e74e90ca50fabb743bf743947ba/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.4.0.aar/bd5bf2241ec9d217d1b4930c58281800/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/f39e12f36485eab5a43e18cef04524c5/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0d6df4057d1620a785f5bd2e69dd0d7866f3613c">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/d4435f8b14f1ab609d525755a525d7f7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.8.0.aar/c583ce32f8c9790122f428a36eca582d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/88765855c7e3134e3559ca754d2a6692/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a77dd97f559e5fdc641380539d31a71f2b0470c">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.8.0.aar/d00bc287c59f7d34482de25b83aa18e1/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/e091737d93b68b456a468c722ad2beed/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.8.0.aar/b969ffabf70a56f457d2924aa004fc98/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.6.2.aar/1ce37cbfa389f83b90d800948cdf1992/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="16226703bab55ec42457666213cd3503799d36a8">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.8.0.aar/65757f91818ddf51c768e61ec800a06b/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/0a6766ff5e62806a0987536938d21fff/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/b387b766c9e90c6c75bf7a6762defd0f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/b6cbf0b25ddb3c930b3cd1320bdeefa6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cad1364721fc716a39bdc351d3637edb634c9aa5">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/explosionfield-1.0.1.aar/620c047789d51b61513937da72da89c7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f82998f0794dfe2b65edd561ac0b34b536e7ff9a">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.8.0.aar/2ba77ebe2a0785d679379c5cb093754c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/facebook-like-button-0.1.8.aar/9ba6e27605c2fb6227b9b0cec2bc4fc0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6aa1fc36c1732ad848de1b1dbdab4f7eab4784b3">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.8.0.aar/b14cbacda17310ca27a55c2ee33a595d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/474bb5329c51466517657b0c0f7b7df7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/65a7cc473fe3934e935728aee7833998/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="42a3ae86dd3ae2876d3e95c2e6e104ae57a50a65">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/zoomage-1.1.0.aar/edec9422a9969a1a148dd98d097fa990/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4d9e973ce005ae994c326ac8e41eb2db04b3ce1b">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.0.aar/edf70c742e1575cf038621729d0bb711/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/zxing-android-legacy-2.0.1.aar/f51d4b88a93789d1e59943dfea4e06ae/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7eb68150c290a271a716675ebdfd176eac694124">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/287ffc0a6376215923d6774a30e31392/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.2.aar/91be22b515ebbe0b0a6699b982cf4d09/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7058bce7e91ddb18e2e07b0b699019039b87e47b">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/circlebutton-1.1.aar/6eab0bc14d2c649fb64a3501afa673be/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/8ccb5b3ac1db3ca0fe18aeb21bc700f3/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vrishankgupta/.gradle/caches/transforms-1/files-1.1/firebase-database-9.8.0.aar/2ff89363466dacce3a7f3858f54a29a4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="/Users/vrishankgupta/Downloads/Moksha_Chat/app/build/intermediates/transforms/preDex/release/27.jar" />
+    </item>
+
+</items>

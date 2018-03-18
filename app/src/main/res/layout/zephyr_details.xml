@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e253e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nsit_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sign_out_icon"
+            android:layout_alignStart="@+id/sign_out_icon"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/home_icon" />
+
+        <ImageView
+            android:id="@+id/sign_out_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/home_icon"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sign_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zephyr"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tv0"
+                android:textColor="@color/subtext_color"
+                android:text="The Solo/Duet Dance Competition"
+                android:textSize="20sp"
+                android:fontFamily="cursive"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOLO DANCE"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="Dancing is like dreaming with your feet - a dream where you are the star. Dancing reveals all the mysteries that music conceals and soothes the dancer's as well as the audience's soul.
+If you have a love for classical or western dance forms or you just love grooving to any and every song, put on your dancing shoes, shed your inhibitions and participate in the most stupendous event that Moksha has lined up for you. Don't miss out on this opportunity, 'because at the end of the day, when the dance gets over, the applause subsides, it's the joy and the feeling of contentment that stays on with you."
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:text="Rules for the competition"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:id="@+id/tv2"
+                android:layout_marginTop="20dp"
+                android:text="1.Time limit - 2-4 minutes. You shall be penalized for exceeding this limit.\n\n2.Instrument or accompanists will not be provided by NSIT.\n\n3.Participants have to bring their own track in pen drives. \n\n4.Participants can perform any dance form, e.g. classical/folk/western.\n\n5.Participants should have their own costumes and props. However there is a restriction on the use of inflammable substances, naked flames and glass shattering objects. Kindly get approval of the props if in doubt.\n\n6.Judging criteria will include the choreography, stage utilization, energy level, innovation, presentation, and overall impact on the crowd. The decision of the judges will be final and binding.\n\n7.One participant will only be allowed to give one performance."
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DUET DANCE"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:id="@+id/tv3"
+                android:text="Style-Energy-Music-In sync Dancing is perfect when a relationship of totality exists.\n\n Do you think you can dance beyond comparison? Or there are only a handful of other people who can match you? Then this event is perfect for you! \nDuet dance is a mix of any kind of prop, choreography and dance form from sequences of contemporary to beats of hip-hop to the grace of classical or any other dance form that demands high levels of strength, stamina and flexibility. MOKSHA brings to you a duet dance competition giving chance to any duet team dancing to delight. If you think you form the best dancing duo, and you and your partner can set the stage on fire with your sizzling chemistry, this is your event! "
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Rules for the competition"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:id="@+id/tv4"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="1.Any two individuals (irrespective of gender) can pair to participate in this event. \n\n2.Time limit is 3-5 minutes (+1 minute Setup and clearance time).  Teams must follow the time limits else they shall be penalized.\n\n3.All dance forms are allowed.  No particular theme has to be followed. The participants are free to mould the dance form.\n\n4.All kinds of songs are allowed. The teams must bring their music in pen drives (audio format .mp3).\n\n5.Usage of props is allowed but the organizers hold the discretion of allowing it on stage. There is a restriction on use of fire or any inflammable object and glass shatter on stage. Please get approval of your prop from the organizers in case of doubt.\n\n6.Judging criteria will include synchronisation, expressions, energy level, stage utilisation, costumes, props, innovation and creativity which appeals to the judges and the audience.\n\n7.The decision of the judges and the organizing team will be final and binding."
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:text="Contact for Queries:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:id="@+id/tv5"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/subtext_color"
+                android:text="Ayushi Tayal - 9560330400\nNimit Bhatia - 9953084804"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textColor="@color/white"
+                android:text="Time : 12:00Pm\nDate : 27th March 2018"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/regButton"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

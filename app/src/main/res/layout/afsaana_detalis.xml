@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e253e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nsit_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sign_out_icon"
+            android:layout_alignStart="@+id/sign_out_icon"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:src="@drawable/home_icon" />
+
+        <ImageView
+            android:id="@+id/sign_out_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/home_icon"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sign_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="अफ़साना २.०"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="monospace"
+                android:textColor="@color/subtext_color"
+                android:textSize="20sp"
+                android:text="किस्सा शब्दों का"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:text="क्या चंद शब्द सुनते ही आप कहानियाँ बुनने लगते हैं ? क्या बस की खिड़की के बगल मे बैठ कर कहानियाँ बुनना आपका शौक है? पूर्व वर्ष की भारी सफलता प्राप्त करने के बाद, नेताजी सुभाष प्रौद्योगिकी संस्थान के वार्षिक सांस्कृतिक उत्सव मोक्ष में तत्सम - एन एस आई टी का हिंदी समूह आपके लिए ला रहें हैं अफ़साना २.० – किस्सा शब्दों का कुछ नए अंदाज़ में। "
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="नियम :"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="1.प्रत्येक प्रतिभागी को 25 शब्दों में एक कहानी लिखनी होगी |\n\n2.दिए गए शब्दकूंज (Keywords) में से न्यूनतम 1 व अधिकतम 4 शब्दों का प्रयोग करना अनिवार्य है |\n\n3.प्रतियोगिता दो भागो में आयोजित की जाएगी| पहला राउंड ऑनलाइन होगा,चुने गए प्रतिभागियों को अगले राउंड (ऑफलाइन) में भाग लेने के लिए निमंत्रण दिया जाएगा |"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="अधिक जानकारी के लिए संपर्क करें:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/subtext_color"
+                android:text="आदित्य - 7838460370\nकार्तिक - 9654711304"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Time : 10:00am-12:00Pm\nDate : 28th March 2018\nVenue : Mini Audi"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/regButton"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

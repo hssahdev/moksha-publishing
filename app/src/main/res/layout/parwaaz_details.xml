@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e253e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nsit_logo" />
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/home_icon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sign_out_icon"
+            android:layout_alignStart="@+id/sign_out_icon"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/sign_out_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/home_icon"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sign_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parwaaz"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/subtext_color"
+                android:text="The Stage play event under Theatrecon"
+                android:textSize="20sp"
+                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="For all the theatre fanatics, this is the place to be. One of the most astounding yet confounding theatre fest makes its mark in the DU circuit.\n\nASHWAMEDH-The Dramatics Society of NSIT brings to you Parwaaz- The Stage play event under Theatrecon : The Dramatics Festival of NSIT as a part of its annual cultural fest, Moksha ‘18 at NSIT Delhi. A globule of vigor, a dash of captivity and fistful endeavors of playwrights. A plethora of Thespians is what constitutes Parwaaz each year and it is back, bigger and better this year."
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Rules for Preliminary Qualifications"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="1.Time limit - 1 hour performance\n\n2.Tech check - 20 mins. (Seperately)\n\n3.We will only provide lights and sound for the event. The props have to be arranged by the team themselves.\n\n4.Teams need to be present at the venue (NSIT), atleast 60 min Prior to the scheduled performance time.\n\n5.Team limit - 25 participants\n\n6.The decision of the judges would be final and binding.\n\n7.Each team has also been assigned a Point of Contact (POC), who will contact you shortly. Their details are mentioned in the attachment. Please feel free to contact your POC for queries related to venue, props or anything else that you wish to.\n\n8.If a team wishes to change their slot, they have to themselves contact the college and coordinate with them. It is their responsibility to inform us of the change at least 24hr before the event"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Contact for Queries:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/subtext_color"
+                android:text="Anuj Juneja - 9654228960\nDhruv Choudhary - 8527387875"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Time : 9:00Am\nDate : 27th March 2018\nVenue : Main Audi"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/regButton"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

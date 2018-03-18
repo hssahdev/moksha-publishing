@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e253e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nsit_logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sign_out_icon"
+            android:layout_alignStart="@+id/sign_out_icon"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/home_icon" />
+
+        <ImageView
+            android:id="@+id/sign_out_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/home_icon"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sign_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MUDRA"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/subtext_color"
+                android:text="The Choreography Competition"
+                android:textSize="20sp"
+                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:text="Mudra, the choreography competition is the event which provides a platform for dancers to articulate their emotions and feelings through thematic dance where a story is unfolded, a message is sent across with each performance choreographed with mixture of various dance forms like Contemporary, Ballet/Jazz."
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Rules for Preliminary Qualifications"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="20dp"
+                android:text="1. Team limit- 20 (performing + infra members).\n\n2.Time Limit- 8-10 minutes including relevant voice-overs.\n\n3.The soundtrack should be only instrumental (except narrative part). All teams are requested to carry their soundtrack in a pen drive in mp3 format.\n\n4.Any kind of fluid, flame, powders, heavy or sharp objects are strictly prohibited. Teams need to specify beforehand, if they will be using any kind of props.\n\n5.All the participants are required to show their ID cards.\n\n6.The Organizing Committee shall not provide any instruments/accompanists. The contestants should install/ test their tracks with the equipment available at the venue beforehand. No extra time shall be given during the time of the performance.\n\n7.In case the participants exceed the time limit, the judges will be free to disqualify the participating team.\n\n8.The Organizing Committee reserves the right to change the venue, time and rules, if need be.\n\n9.The decision of Judges will be final and binding."
+/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Contact for Queries:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/subtext_color"
+                android:text="Sakshi Dagar - 9643456554\nAmartya Pradhan - 8527469449"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Time : 5:00Pm\nDate : 26th March 2018\nVenue : Mini Stage" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/regButton"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

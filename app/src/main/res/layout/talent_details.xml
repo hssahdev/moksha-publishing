@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e253e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/home_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sign_out_icon"
+            android:layout_alignStart="@+id/sign_out_icon"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nsit_logo" />
+
+        <ImageView
+            android:id="@+id/sign_out_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/home_icon"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sign_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MOKSHA’s Got Talent"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/subtext_color"
+                android:textSize="20sp"
+                android:text="The Talent Hunt Competition"
+                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:text="Everyone is gifted with a talent. But most people do not open their package. Our quest for them has just begun. \n\nOn this account Moksha NSIT is back with the second edition of MOKSHA's Got Talent! \n\nSo do you have something that sets you apart? Do you think you can rule in the spotlight? Do you think you can captivate the masses with your skills? If you have the X-FACTOR then NGT is the place for you to be! This is the place where poets, singers, dancers, artists, comedians, actors and all the gifted people unite and fight for the title. So come and witness the madness and magic as the stage fills with a plethora of performances and crazy competition sets fire! Registrations are now open and interested participants can register via the Google Form given below."
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Rules for Preliminary Qualifications"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="1.Participants must be a current student with a valid student ID card.\n\n2.Registration must be done by 9th March 11.59pm.Rules for prelims will be sent via mail after registration.\n\n3.The contestants may perform as a solo act or a group act. For group acts maximum number of participants allowed is 5.\n\n4.Prelims would be an online round.Further details will be sent after registration."
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Contact for Queries:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/subtext_color"
+                android:text="Kanishka Gosain - 9818915950\nVikas Yadav - 9968490499"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Time : 3:00Pm - 6:00Pm\nDate : 26th March 2018\nVenue : Admin Block"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/regButton"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

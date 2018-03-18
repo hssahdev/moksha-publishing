@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e253e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nsit_logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sign_out_icon"
+            android:layout_alignStart="@+id/sign_out_icon"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/home_icon" />
+
+        <ImageView
+            android:id="@+id/sign_out_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/home_icon"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sign_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AVALANCHE "
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/subtext_color"
+                android:textSize="20sp"
+                android:text="The Battle of Bands"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:text="Let the musician in you go wild as you come witness the ethereal amalgamation of sounds! Moksha’18 presents its most-awaited event, Avalanche - The Battle of Bands.\n\nIf you think that your band has what it takes to make a crowd go wild, come try your luck here! Prizes worth Rs.20,000 to be won!"
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Rules For Preliminary Qualifications:"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="1.All bands MUST register ALL PARTICIPANTS on the Moksha'18 website BEFORE the event. Any participant who has not registered will NOT be allowed entry in the campus.\n\n2.The songs should have Hindi/English lyrics, however, a refrain in a foreign language is allowed.\n\n3.Team Size: 3-8 members\n\n4.There will be negative marking for exceeding the time limit.\n\n5.Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate disqualification. \n\n6.Purely instrumental pieces are not allowed. At least 1 vocalist is compulsory.\n\n7.In the case of any dispute, the decision of the judges will be final and non-negotiable. \n\n8.Drum kit and sound system will be provided by the organizers. \n\n9.Time slot for each band will be around 20 minutes and 3 minutes for sound check.\n\n10.Song selection: Bands must indicate song selection(s) for performance, if songs are original or covers, lyrics to all original songs must be submitted in writing, band must be completely forthcoming in regard to lyric content that contains profanity, sex, drug, violence, or anything else that would warrant an advisory warning per recording industry standards. \n\n\nFeel free to mail us on battleofbands2k18@gmail.com if you have any further queries!Hope to see you soon!"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Contact for Queries:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/subtext_color"
+                android:text="Nayan Sayare - 9911042793\nNikhil Dass - 8860017918"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Time : 2:00Pm - 5:00Pm\nDate : 27th March 2018\nVenue : Main Stage"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/regButton"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vrishankgupta.chatting">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/icon1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChatMainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".explode"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventsActivityDance"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".EventsActivityMusic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventsActivityAutomobile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventsActivityFashion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventsActivityGaming"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventsActivityInformals"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventsActivityLiterary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventsActivityTheatre"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Afsaana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.AimBot"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Alfaaz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Avalanche"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Brahmastra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.EveningBall"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Oorja"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.FakeOff"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Harmony"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Kalakriti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Kaleidoscope"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Khayaal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Kismat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Melody"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Motorsport"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.MrMoksha"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Mudra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Nishad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.OpenMic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Paint"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Parwaaz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Querencia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Rogue"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Soch"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Stepup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Symphony"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Talent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Tarang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Verbum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Voice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubEvents.Zephyr"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SubEvents.Seek"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e253e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nsit_logo" />
+
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/home_icon" />
+
+        <ImageView
+            android:id="@+id/sign_out_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/home_icon"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sign_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AIMBOT’18"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/subtext_color"
+                android:textSize="20sp"
+                android:text="The Gaming Competition of MOKSHA"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Greetings, In the digital world being accelerated by the emerging advancements in gaming and technology, we at Netaji Subhas Institute of Technology have cemented our legacy as one of the premier gaming societies in the Delhi circuit within the short span of one year. Therefore in an attempt to establish this very love and passion for gaming, we Venatus- The Official Gaming Society of NSIT in association with Paradize Group brings to you our event AIMBOT’18, which is certainly going to infuse within all a sensation of adrenaline pumping fun. Gaming is already a mainstream sport, enjoyed by all whether playing or spectating.\n\nVenatus aims to push the boundaries of multiplayer events by introducing new improvised rules and high end specs gear. The vision of Aimbot is to professionalize gaming as a career for either development or even publishing.\nThe Event will take place in two phases. We tried to include every single mainstream multiplayer game i.e. CSGO, Tekken 7, FIFA 18, Dota 2, NFS MW, Mini Militia (Phone), Real Cricket 07, Sims City – All of them organized with fixed dedicated venue and rules. The individual rules and procedure for each game will be out soon on the website as well as on the Facebook page. Google forms will be released, 2 weeks prior the event"
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="FIFA 18 | Ready for the kickoff?"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="If you've had long gaming nights with your friends, chances probably are that the one game worthy enough to keep you from obtaining that blissful slumber is FIFA. \nSo pull up your socks, put on those numbered jerseys and clutch on to your gamepads as Venatus presents to you a FIFA tournament. \nBring on all your friends as well as rivals and settle the age old questions for once and for all: who is the best in FIFA? \n\nRegister on the link given below! Register Now!"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/fifa"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Mini Militia | the Battle Begins"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="The most intense and rip-roaring multiplayer combat experience awaits you.\nWith a multitude of weapons to choose from, it's sure to get your senses tingling and heart pumping. \nAll that's needed is your dearer than life smartphone to get you started. This is the moment. Don't think. Don't wait. Don't let Sarge down. Go for it. Just get those snipers, shotguns and flamethrowers out and let 'em blast! "
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/militia"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="CS GO | the awaited FPS"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="The age old classic close to our hearts is back to get us all worked up.\nArm yourself with the best of weapons. Strategize. Take aim and strike. Cause this is what you do. \nPlanting bombs, rescuing hostages- the gamer business. You cannot fail. You cannot die. This is a call to every CS GO junkie out there. Aimbot welcomes you to witness and be a part of the dynamic CS GO fam. Buckle up. The countdown is on. "
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/cs"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Tekken 7 | we don't promote fighting, or do we..."
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="20dp"
+                android:text="In the arena of arcade gaming there are games and then there is Tekken. This classic 1v1 freestyle fighting game resides at the very heart of the gaming community since its inception. \n\nIf you think you've got what it takes to win against the blitzkrieg of warriors pit against you, then get started by registering here: "
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/tekken"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="NFSMW | we’ve come a long way from riding Chariots..."
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="20dp"
+                android:text="Get your engines revving, your adrenaline pumping and gears shifting for Venatus's Aimbot this March. Compete against the best that Delhi has to offer and clear a path towards victory, that is, if you're fast enough... \n\nParticipate in an event that puts to test your skills in this classic racing game, where it’s not about how fast you drive, but how tactfully you can glide your way through a cut throat competition of competitive racers \n\nHit that gas pedal and register here: "
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/nfs"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Real Cricket 07 | Six attempts and it's over...."
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="A Hardcore cricket fan? Miss those good old gully cricket days? \nDon’t worry because we've got you covered! \nAttack, defend, and swing your way to glory this March in Venatus’s very own Aimbot’18. Your skills will be pushed to the limit as you face a challenging range of opponents; from slow and steady to fast and frightening. It’s time for the cricket fans to put their tactical expertise to the test and prove their mettle. \nGet into gear and get ready for Aimbot’18 in your bid to dominate the leaderboards! "
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/cricket"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="SimCity Buildit | Unleash the true engineer in you..."
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="Love structuring cities? Want to see your skyscrapers soar the skies? SimCity Buildit is the right hotspot for you to dwell into as AIMBOT'18 brings you the chance to showcase your city-building skills. \n\nUnleash your imagination on the map and watch your city come to life while competing for the points. Put your helmets on, grab your tools and get building this march, as we move into the festive season of Moksha's AIMBOT'18. Dominate the leaderboards and bag 'em prizes!"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/simcity"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Dota 2 | Think MOBA? Think DOTA."
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="The charged atmosphere on the plains of ancients brings to you an opportunity to outwit, outgun and oust all other players in the art of strategizing. \n\nDo you have the mind and the body for what it takes to execute the right spell at the right time? \nIf yes, then register on the link provided and make sure to be there.\n\nExciting prizes awaiting you as you compete to try and take home prizes from a pool of Rs.10K !\n\nAre you ready to defend your ancients, yet again?"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/dota"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Time : 11:00am\nDate : 26th - 28th March 2018\nVenue : NSIT (TBA)"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

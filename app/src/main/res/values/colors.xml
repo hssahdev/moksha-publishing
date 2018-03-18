@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e253e</color>
+    <color name="colorPrimaryDark">#1e253e</color>
+    <color name="colorAccent">#ec578f</color>
+    <color name="send_msg">#E1FFC7</color>
+    <color name="subtext_color">#dee3ed</color>
+    <color name="sub_background">#181a31</color>
+    <color name="white">#ffff</color>
+    <color name="button">#f1445f</color>
+</resources>

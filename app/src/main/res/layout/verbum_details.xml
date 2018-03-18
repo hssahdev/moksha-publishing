@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e253e">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/home_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sign_out_icon"
+            android:layout_alignStart="@+id/sign_out_icon"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nsit_logo" />
+
+        <ImageView
+            android:id="@+id/sign_out_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignBottom="@+id/home_icon"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/sign_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verbum Domini"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/subtext_color"
+                android:textSize="20sp"
+                android:id="@+id/tv0"
+                android:text="The Literary Festival"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:id="@+id/tv1"
+                android:text="Do you have a thirst for writing? Can you not rest until you’ve conveyed your story to the world? Then grab your quills and participate in the plethora of events that we have tailored for you.\nPresenting Moksha’s own English literature fest to provide a platform for the hidden writers in each and everyone of us! So let the games begin and may the odds be ever in your favour!"
+                android:textColor="@color/subtext_color"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Scriptores Tacitus: The Dialogue Writing"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="Ever dreamt of two of your favorite fictional characters making a crossover? Sheldon Cooper talking to perhaps ‘The’ Frank Underwood? Here’s the thing, Put yourself in that mix as well. Imagine a picnic between you and the Winchester brothers turning into a full fight with the dead! Pen down the dream and make it as amazing as possible! Create an engaging conversation in lesser dialogues and perhaps the advantage is yours!\n\nRules:\n\n1.Maximum 4 characters allowed including at least one real character.\n\n2.Description of characters is necessary before making the final submission.\n\n3.Entries are to be sent latest by 9th March, 2018.\n\n4.Entries can either be of audio or video formats. Participants may send a link to their youtube video or soundcloud audio.\n\n5.Maximum 15 dialogues per character involved.\n\n6.Teams of 2-3 members. Lone Wolves Allowed.\n\n7.The Decision of the judges will be final"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="HISHE – The “You-already-know-what HISHE-is” Event"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="Taking inspiration from the “How it should have ended” YouTube series, we present our very own take on the format. Choose any movie, anime, tv series, book. Change the ending. That’s it! Yep, That’s genuinely it! Here’s the catch, present it in a unique format. Write a Haiku for all you know, just make it as catchy and different as possible.\n\nRules:\n\n1.Up to 3 pages of content allowed.\n\n2.Additional Description such as for the Movie/Anime/TV series/book in not more than 50 words\n\n3.Teams of 2-3 members. Lone Wolves Allowed.\n\n4.The Decision of the judges will be final"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Tiny Tales on the Street."
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="Indian Streets are sometimes the most happening place around us. Keeping with the theme of Moksha’18. We present to you, Tiny tales on the street, where in, you present to us, Two lines worth of your most interesting experiences on Indian streets.\n\nRules:\n\n1.Only 2 lines allowed per team.\n\n2.Portraying idea in lesser words presents more advantage.\n\n3.Individual participants only.\n\n4.Decision of the judges will be final.
+"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Fake Research"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:textColor="@color/subtext_color"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="20dp"
+                android:text="We talk theories all the time. Related to everything. But can you prove it? This is what the event provides you. Take a theory. Any. As unimaginable as possible. Prove to us that it is correct and what you propose is right! Sell us your theory and maybe you can be the one to sell ‘The’ pen and become the very own, “The Wolf of Moksha.”\n\nRules:\n\n1.Teams of 2-3 members. Lone Wolves Allowed\n\n2.Maximum of 2-5 pages per team.\n\n3.The decision of the judges will be final."
+                />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:text="Contact for Queries:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sub_background"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/subtext_color"
+                android:text="Archiev Kumar -9810468557\nZain Rizwan - 9711125366\nMayank Kumar Poddar - 9971340587"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textColor="@color/white"
+                android:text="Last Date : 13th March 2018\nVenue : Online"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:id="@+id/regButton"
+                android:text="Register Here"
+                android:layout_marginBottom="40dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
