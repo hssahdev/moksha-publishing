@@ -193,8 +193,14 @@
                 android:layout_height="80dp"
                 android:background="@drawable/eventheading"/>
 
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.vrishankgupta.chatting.EventFragment"
+                android:id="@+id/harsh"/>
 
-            <HorizontalScrollView
+
+       <!--     <HorizontalScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -258,7 +264,7 @@
                 </LinearLayout>
 
 
-            </HorizontalScrollView>
+            </HorizontalScrollView> -->
 
         </LinearLayout>
 
